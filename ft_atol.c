@@ -6,13 +6,13 @@
 /*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/14 13:06:31 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/12/14 13:40:48 by ccavalca         ###   ########.fr       */
+/*   Updated: 2025/12/14 14:44:31 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-long	ft_atol(char *nptr)
+long	ft_atol(const char *nptr)
 {
 	long	nb;
 	int		i;
