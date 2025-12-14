@@ -6,7 +6,7 @@
 /*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/12 18:17:15 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/12/14 13:07:11 by ccavalca         ###   ########.fr       */
+/*   Updated: 2025/12/14 15:00:20 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdlib.h>
 # include <stddef.h>
 # include <unistd.h>
+# include "ft_printf/ft_printf.h"
 
 //structs
 typedef struct s_list
