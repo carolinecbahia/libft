@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/12 18:17:15 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/12/14 15:01:56 by ccavalca         ###   ########.fr       */
+/*   Updated: 2025/12/16 16:05:47 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stddef.h>
 # include <unistd.h>
 # include "ft_printf.h"
+# include "get_next_line.h"
 
 //structs
 typedef struct s_list
@@ -86,5 +87,11 @@ t_list	*ft_lstlast(t_list *lst);
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 t_list	*ft_lstnew(void *content);
 int		ft_lstsize(t_list *lst);
+
+//gnl
+char	*get_next_line(int fd);
+
+//ft_printf
+int	ft_printf(const char *print, ...);
 
 #endif
