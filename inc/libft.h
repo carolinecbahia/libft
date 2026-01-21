@@ -6,7 +6,7 @@
 /*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/12 18:17:15 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/12/16 16:05:47 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/01/21 13:31:12 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@
 # include <stdlib.h>
 # include <stddef.h>
 # include <unistd.h>
-# include "ft_printf.h"
-# include "get_next_line.h"
+# include "../ft_printf/inc/ft_printf.h"
+# include "../gnl/get_next_line.h"
 
 //structs
 typedef struct s_list
