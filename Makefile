@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/07/12 19:09:24 by ccavalca          #+#    #+#              #
-#    Updated: 2026/01/21 13:48:25 by ccavalca         ###   ########.fr        #
+#                                                          :::      ::::::::   #
+#   Makefile                                             :+:      :+:    :+:   #
+#                                                      +:+ +:+         +:+     #
+#   By: ccavalca <ccavalca@student.42sp.org.br>      +#+  +:+       +#+        #
+#                                                  +#+#+#+#+#+   +#+           #
+#   Created: 2025/07/12 19:09:24 by ccavalca            #+#    #+#             #
+#   Updated: 2026/01/24 00:50:57 by ccavalca           ###   ########.fr       #
 #                                                                              #
 # **************************************************************************** #
 
@@ -84,6 +84,7 @@ ADDITIONAL_SRC = \
 	src/addtional/ft_strjoin_free.c \
 	src/addtional/ft_strndup.c
 
+
 BONUS_SRC = \
 	src/bonus/ft_lstadd_back.c \
 	src/bonus/ft_lstadd_front.c \
@@ -117,6 +118,7 @@ TARGET = libft.a
 # ============================================================================
 
 .PHONY: all clean fclean re debug release help
+
 
 all: $(TARGET)
 
