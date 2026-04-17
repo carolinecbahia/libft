@@ -3,16 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 17:24:53 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/07/19 14:24:07 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:54:07 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 size_t	ft_strlen(const char *s);
+
+/*creates a substring from s starting at start for len characters.*/
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

@@ -3,14 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/17 16:25:19 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/07/18 19:55:39 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:29:24 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*allocates memory for an array of nmemb elements 
+of size bytes each and returns a pointer to the
+allocated memory.  The memory is set to zero.*/
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {

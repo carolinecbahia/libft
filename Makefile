@@ -5,8 +5,8 @@
 #                                                      +:+ +:+         +:+     #
 #   By: ccavalca <ccavalca@student.42sp.org.br>      +#+  +:+       +#+        #
 #                                                  +#+#+#+#+#+   +#+           #
-#   Created: 2025/07/12 19:09:24 by ccavalca            #+#    #+#             #
-#   Updated: 2026/01/24 00:50:57 by ccavalca           ###   ########.fr       #
+#   Created: 0025/07/12 19:09:24 by cavalca             #+#    #+#             #
+#   Updated: 2026/04/14 23:10:39 by ccavalca           ###   ########.fr       #
 #                                                                              #
 # **************************************************************************** #
 
@@ -130,32 +130,26 @@ $(TARGET): $(OBJS)
 $(OBJ_DIR)%.o: src/mandatory/%.c
 	@mkdir -p $(OBJ_DIR)
 	@$(CC) $(CFLAGS) -c $< -o $@
-	@echo "✓ Compilando $<"
 
 $(OBJ_DIR)%.o: src/addtional/%.c
 	@mkdir -p $(OBJ_DIR)
 	@$(CC) $(CFLAGS) -c $< -o $@
-	@echo "✓ Compilando $<"
 
 $(OBJ_DIR)%.o: src/bonus/%.c
 	@mkdir -p $(OBJ_DIR)
 	@$(CC) $(CFLAGS) -c $< -o $@
-	@echo "✓ Compilando $<"
 
 $(OBJ_DIR)%.o: ft_printf/src/%.c
 	@mkdir -p $(OBJ_DIR)
 	@$(CC) $(CFLAGS) -c $< -o $@
-	@echo "✓ Compilando $<"
 
 $(OBJ_DIR)%.o: ft_printf/src/bonus/%.c
 	@mkdir -p $(OBJ_DIR)
 	@$(CC) $(CFLAGS) -c $< -o $@
-	@echo "✓ Compilando $<"
 
 $(OBJ_DIR)%.o: gnl/%.c
 	@mkdir -p $(OBJ_DIR)
 	@$(CC) $(CFLAGS) -c $< -o $@
-	@echo "✓ Compilando $<"
 
 debug: CFLAGS += $(DEBUG_FLAGS)
 debug: clean all

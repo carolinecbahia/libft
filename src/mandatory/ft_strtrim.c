@@ -3,16 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 20:41:16 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/07/19 15:55:48 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:54:07 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 size_t	ft_strlen(const char *s);
+
+/*trims characters from set from both ends of s1.*/
 
 static int	is_in_set(char c, char const *set)
 {

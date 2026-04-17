@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/12 19:34:00 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/07/26 12:29:32 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:42:21 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*checks for any printable character including space.*/
 
 int	ft_isprint(int c)
 {

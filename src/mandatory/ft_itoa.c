@@ -3,14 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 20:41:01 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/07/20 12:34:15 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:43:24 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*converts the int to string (char *)*/
 
 static int	get_len(long n)
 {

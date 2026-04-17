@@ -3,16 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/13 16:21:34 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/07/18 19:57:27 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 23:03:41 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 size_t	ft_strlen(const char *s);
+
+/*copies src to dst respecting the destination buffer size.*/
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {

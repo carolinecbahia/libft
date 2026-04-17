@@ -6,11 +6,13 @@
 /*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/24 00:49:13 by ccavalca          #+#    #+#             */
-/*   Updated: 2026/01/24 00:50:01 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:45:06 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*frees a null-terminated matrix of strings and the matrix pointer itself.*/
 
 void ft_free_matrix(char **matrix)
 {

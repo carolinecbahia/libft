@@ -3,16 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 20:41:44 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/07/20 15:15:59 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:54:07 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 size_t	ft_strlen(const char *s);
+
+/*applies function f to each character of string s in place.*/
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {

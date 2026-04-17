@@ -3,16 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 18:17:19 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/07/19 15:41:53 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:54:07 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 size_t	ft_strlen(const char *s);
+
+/*allocates a new string formed by concatenating s1 and s2.*/
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

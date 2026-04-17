@@ -3,12 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/17 10:24:17 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/07/18 16:33:35 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 23:03:41 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
+/* converts a lowercase letter to uppercase if needed. */
 
 int	ft_toupper(int c)
 {

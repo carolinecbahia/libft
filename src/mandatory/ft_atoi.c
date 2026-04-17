@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/17 16:24:58 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/07/18 19:58:02 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:42:44 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*converts the initial portion of the string pointed to by nptr to int.*/
 
 int	ft_atoi(const char *nptr)
 {

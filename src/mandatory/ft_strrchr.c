@@ -3,16 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/17 10:25:39 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/07/18 19:59:04 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:54:07 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 size_t	ft_strlen(const char *s);
+
+/*locates the last occurrence of c in the string s.*/
 
 char	*ft_strrchr(const char *s, int c)
 {

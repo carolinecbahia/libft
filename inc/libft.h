@@ -6,7 +6,7 @@
 /*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/12 18:17:15 by ccavalca          #+#    #+#             */
-/*   Updated: 2026/01/21 13:31:12 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:29:26 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,8 @@ void	*ft_memset(void *s, int c, size_t n);
 //convertion
 int		ft_atoi(const char *nptr);
 long	ft_atol(const char *nptr);
+int		ft_atoi_safe(const char *str, int *out);
+int		ft_isspace(int c);
 
 //additionals
 //new strings
@@ -76,6 +78,19 @@ void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
+
+//extra
+char	*ft_itoa_base(long long value, int base, int uppercase);
+t_list	*ft_lst_get_node(t_list *lst, int index);
+void	ft_lst_remove_if(t_list **lst, void *data_ref,
+			int (*cmp)(void *, void *), void (*del)(void *));
+size_t	ft_matrix_len(char **matrix);
+int		ft_printf_fd(int fd, const char *format, ...);
+void	ft_putstr_color_fd(char *s, const char *color, int fd);
+int		ft_strcmp(const char *s1, const char *s2);
+char	*ft_strjoin_free(char *s1, char *s2, int to_free);
+char	*ft_strndup(const char *s, size_t n);
+void	ft_free_matrix(char **matrix);
 
 //bonus - lists
 void	ft_lstadd_back(t_list **lst, t_list *new);

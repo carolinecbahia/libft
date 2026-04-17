@@ -3,14 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atol.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/14 13:06:31 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/12/14 14:44:31 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:44:59 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*converts the initial portion of the string pointed to by nptr to long.*/
 
 long	ft_atol(const char *nptr)
 {

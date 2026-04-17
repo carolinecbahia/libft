@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/12 19:26:24 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/07/26 12:28:34 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:30:53 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,9 @@
 
 int	ft_isalpha(int c);
 int	ft_isdigit(int c);
+
+/*checks for an alphanumeric character; 
+it is equivalent to (isalpha(c) || isdigit(c)).*/
 
 int	ft_isalnum(int c)
 {

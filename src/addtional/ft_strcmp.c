@@ -6,11 +6,13 @@
 /*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/30 01:12:11 by ccavalca          #+#    #+#             */
-/*   Updated: 2026/01/30 01:12:59 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/04/14 22:45:55 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*lexicographically compares two strings and returns their first diff.*/
 
 int	ft_strcmp(const char *s1, const char *s2)
 {
