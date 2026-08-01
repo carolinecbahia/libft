@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccavalca <ccavalca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/30 16:02:31 by ccavalca          #+#    #+#             */
-/*   Updated: 2025/08/25 14:18:41 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/08/01 14:01:02 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
 size_t	ft_strlen_gnl(const char *s)
-{	
+{
 	size_t	len;
 
 	if (!s)

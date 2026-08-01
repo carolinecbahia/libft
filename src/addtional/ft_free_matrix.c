@@ -6,7 +6,7 @@
 /*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/24 00:49:13 by ccavalca          #+#    #+#             */
-/*   Updated: 2026/06/06 01:55:34 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/08/01 14:16:55 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,11 @@
 
 void	ft_free_matrix(char **matrix)
 {
-	int i = 0;
+	int	i;
+
+	i = 0;
 	if (!matrix)
-		return;
+		return ;
 	while (matrix[i])
 	{
 		free(matrix[i]);

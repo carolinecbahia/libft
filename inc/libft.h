@@ -6,7 +6,7 @@
 /*   By: ccavalca <ccavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/12 18:17:15 by ccavalca          #+#    #+#             */
-/*   Updated: 2026/04/14 22:29:26 by ccavalca         ###   ########.fr       */
+/*   Updated: 2026/08/01 14:00:45 by ccavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -107,6 +107,6 @@ int		ft_lstsize(t_list *lst);
 char	*get_next_line(int fd);
 
 //ft_printf
-int	ft_printf(const char *print, ...);
+int		ft_printf(const char *print, ...);
 
 #endif
